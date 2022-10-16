@@ -27,7 +27,7 @@ $(document).ready(function($) {
 	/*=========================================
 		    Countdown
 	=========================================*/
-	$('#counter').countdown('2022/09/29', function (event) {
+	$('#counter').countdown('2022/10/28', function (event) {
 		$('#day').html(event.strftime('%D'));
 		$('#hour').html(event.strftime('%H'));
 		$('#minute').html(event.strftime('%M'));

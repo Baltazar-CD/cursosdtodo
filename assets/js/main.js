@@ -27,7 +27,7 @@ $(document).ready(function($) {
 	/*=========================================
 		    Countdown
 	=========================================*/
-	$('#counter').countdown('2023/02/20', function (event) {
+	$('#counter').countdown('2023/02/30', function (event) {
 		$('#day').html(event.strftime('%D'));
 		$('#hour').html(event.strftime('%H'));
 		$('#minute').html(event.strftime('%M'));
